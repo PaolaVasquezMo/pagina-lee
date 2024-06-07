@@ -1,0 +1,100 @@
+
+/* Estilo navegador */
+.navbar {
+    background-color: #0c0c0c;
+  }
+  
+  .navbar-nav .nav-item {
+    padding: 0 50px; /* Añade espaciado entre los elementos */
+  }
+  .navbar-nav .nav-link {
+    color: white; /* Cambia el color del texto */
+
+  
+  }
+  
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+
+
+}
+.texto1{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: large;
+    color: #ede6e6;
+    
+}
+.texto2{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    font-size: medium;
+    color:#ede6e6
+}
+
+
+
+/* Estilos para la galería de imágenes */
+
+#galeria{
+    max-width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+    border: 0;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Estilos para pie de imagen */
+
+#pie{
+    max-width: 100%;
+}
+
+#pie{
+    background-color: #0c0c0c;
+  }
+  #pie {
+    padding: 20px; /* Añade un relleno al contenedor principal */
+  }
+  
+  #pie .row {
+    margin-left: -10px; /* Elimina el espacio lateral causado por el padding negativo de la clase row */
+    margin-right: -10px;
+  }
+  
+  #pie .col-12 {
+    padding: 10px; /* Añade un relleno lateral para compensar el padding negativo de la clase row */
+  }
+  
+  #pie h3 {
+    font-size: 2rem; /* Tamaño de fuente para el título */
+    color: #ede6e6; /* Color del texto */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #pie h5 {
+    color: #f4f0f0; /* Color del texto */
+    text-align: center;
+    
+  }
+  
+  #pie h4 {
+    color: #f4f0f0; /* Color del enlace */
+    text-align: center;
+    padding: 20px 0;
+  }
